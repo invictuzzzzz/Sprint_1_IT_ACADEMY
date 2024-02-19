@@ -1,9 +1,11 @@
 package TEMA_4.NIVEL_3.EJERCICIO_6;
 
-import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
+
 
 import org.assertj.core.api.ThrowableAssert.ThrowingCallable;
 import org.junit.jupiter.api.Test;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThatExceptionOfType;
 
 public class TestSeis {
 

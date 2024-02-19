@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_6/TestSeis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_7/TestSiete.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_5/TestCinco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_3/EJERCICIO_5/TestCinco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSiete.objetoOpcionalVacio">
+  <component name="RunManager" selected="JUnit.TestSeis.ExceptionTest">
     <configuration name="TestCinco.verificarMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_1_IT_ACADEMY" />
       <extension name="coverage">
@@ -90,22 +86,6 @@
       <option name="PACKAGE_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_5" />
       <option name="MAIN_CLASS_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_5.TestCinco" />
       <option name="METHOD_NAME" value="verificarMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCuatro.noIncluido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_1_IT_ACADEMY" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TEMA_4.NIVEL_3.EJERCICIO_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_4" />
-      <option name="MAIN_CLASS_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_4.TestCuatro" />
-      <option name="METHOD_NAME" value="noIncluido" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,6 +122,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestSeis.ExceptionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Sprint_1_IT_ACADEMY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEMA_4.NIVEL_3.EJERCICIO_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_6" />
+      <option name="MAIN_CLASS_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_6.TestSeis" />
+      <option name="METHOD_NAME" value="ExceptionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestSiete.objetoOpcionalVacio" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_1_IT_ACADEMY" />
       <extension name="coverage">
@@ -160,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestSeis.ExceptionTest" />
         <item itemvalue="JUnit.TestSiete.objetoOpcionalVacio" />
         <item itemvalue="JUnit.TestSeis" />
         <item itemvalue="JUnit.TestCinco.verificarMap" />
         <item itemvalue="JUnit.TestCuatro.testUnaVez" />
-        <item itemvalue="JUnit.TestCuatro.noIncluido" />
       </list>
     </recent_temporary>
   </component>
