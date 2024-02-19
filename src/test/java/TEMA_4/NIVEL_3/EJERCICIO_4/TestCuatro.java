@@ -11,6 +11,7 @@ import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 public class TestCuatro {
 
     ArrayListTest listTest = new ArrayListTest();
+
     ArrayList<Object> listaTest2 = listTest.generarArrayList();
 
     Object object1 = listaTest2.get(0);
