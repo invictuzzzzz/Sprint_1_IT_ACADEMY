@@ -1,14 +1,15 @@
 package TEMA_2.NIVEL_1;
 
+import TEMA_2.NIVEL_1.Exceptions.ventaVaciaException;
+
 import java.util.ArrayList;
 
 public class Venta {
     private ArrayList<Producto> productos;
-    private double total;
+    private double total = 0; //Por defecto al crear la venta el total es 0
 
     public Venta() {
-        this.productos = new ArrayList<Producto>();
-        this.total = 0;
+        this.productos = new ArrayList<>();
     }
 
     public double getTotal() {

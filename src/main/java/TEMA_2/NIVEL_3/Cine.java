@@ -1,6 +1,8 @@
 package TEMA_2.NIVEL_3;
 
 
+import TEMA_2.NIVEL_3.Exceptions.*;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,8 +16,9 @@ public class Cine {
         pedirDatosIniciales();
 
     }
+
     public void iniciar() {
-        int opcion = 0;
+        int opcion;
 
         do {
             opcion = menu();
@@ -45,6 +48,7 @@ public class Cine {
         } while (opcion != 0);
 
     }
+
     public int menu() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\n" +
@@ -58,6 +62,7 @@ public class Cine {
         return scanner.nextInt();
 
     }
+
     public void mostrarButacas() { // Recorre la lista de butacas y las muestra
         ArrayList<Butaca> butacas = gestionButacas.getButacas();
         if (butacas.isEmpty()) {
@@ -88,10 +93,11 @@ public class Cine {
         }
         System.out.println();
     }
-        public void mapaButacasNombre(String nombrePersona) {
+
+    public void mapaButacasNombre(String nombrePersona) {
 
         System.out.println("\nMapa de butacas:\n" +
-                "X : Butaca ocupada por " + nombrePersona.toUpperCase() + "\n" );
+                "X : Butaca ocupada por " + nombrePersona.toUpperCase() + "\n");
 
         for (int i = 1; i <= this.numFilasButacas; i++) {
             System.out.println();
@@ -100,7 +106,7 @@ public class Cine {
 
                 if (butaca != null && butaca.getPersona().equalsIgnoreCase(nombrePersona)) {
                     System.out.print("[X]"); // Si la butaca está ocupada por la persona
-                } else if (butaca != null){
+                } else if (butaca != null) {
                     System.out.print("[·]"); // Si la butaca está ocupada por otra persona
                 } else {
                     System.out.print("[ ]"); // Si la butaca está libre
@@ -109,6 +115,7 @@ public class Cine {
         }
         System.out.println();
     }
+
     public void mostrarButacasPersona() {
         boolean encontrado;
         Scanner scanner = new Scanner(System.in);
@@ -134,25 +141,20 @@ public class Cine {
         int fila = introducirFila();
         int asiento = introducirAsiento();
         String persona = introducirPersona();
-        try {
-            this.gestionButacas.agregarButaca(new Butaca(fila, asiento, persona));
-            System.out.println(" ** Butaca reservada correctamente **");
-        } catch (ExcepcionButacaOcupada excepcionButacaOcupada) {
-            System.out.println(excepcionButacaOcupada.getMessage());
-        }
+        this.gestionButacas.agregarButaca(new Butaca(fila, asiento, persona));
+        System.out.println(" ** Butaca reservada correctamente **");
     }
+
     public void anularButaca() {
 
         int fila = introducirFila();
         int asiento = introducirAsiento();
-        try {
-            gestionButacas.eliminarButaca(fila, asiento);
-            System.out.println(" ** Butaca anulada correctamente **");
-        } catch (ExcepcionButacaLibre excepcionButacaLibre) {
-            System.out.println(excepcionButacaLibre.getMessage());
-        }
+        gestionButacas.eliminarButaca(fila, asiento);
+        System.out.println(" ** Butaca anulada correctamente **");
     }
+
     public void anularReservaPersona() {
+
         String persona = introducirPersona();
         ArrayList<Butaca> butacas = this.gestionButacas.getButacas();
         boolean personaEliminada = false;
@@ -172,9 +174,11 @@ public class Cine {
         } else {
             System.out.println(" ** No hay reservas a nombre de " + persona + " **");
         }
-     }
+    }
+
     public String introducirPersona() {
-        String nombre = "";
+
+        String nombre;
         Scanner scanner = new Scanner(System.in);
 
         do {
@@ -192,6 +196,7 @@ public class Cine {
         } while (nombre.matches(".*[0-9].*"));
         return nombre;
     }
+
     public void pedirDatosIniciales() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("\n ---Bienvenido a la aplicacíon de asientos del cine---\n");
@@ -201,7 +206,9 @@ public class Cine {
         this.numButacasPorFila = scanner.nextInt();
         scanner.nextLine();
     }
+
     public int introducirFila() {
+
         int fila = 0;
         Scanner scanner = new Scanner(System.in);
 
@@ -223,7 +230,9 @@ public class Cine {
 
         return fila;
     }
+
     public int introducirAsiento() {
+
         int asiento = 0;
         boolean asientoCorrecto = false;
         Scanner scanner = new Scanner(System.in);

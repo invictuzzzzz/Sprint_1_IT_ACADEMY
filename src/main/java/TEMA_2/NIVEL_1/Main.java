@@ -1,17 +1,18 @@
 package TEMA_2.NIVEL_1;
 
+import TEMA_2.NIVEL_1.Exceptions.ventaVaciaException;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     static Scanner entrada = new Scanner(System.in);
-    static ArrayList<Producto> productos = new ArrayList<Producto>();
-    static ArrayList<Venta> ventas = new ArrayList<Venta>();
+    static ArrayList<Producto> productos = new ArrayList<>();
+    static ArrayList<Venta> ventas = new ArrayList<>();
 
     public static void main(String[] args) {
         Venta nuevaVenta = new Venta();
-        int opcion = 0;
-
+        int opcion;
 
         do {
 

@@ -19,6 +19,8 @@ public class Entrada {
 
         while (true) {
             System.out.println(mensaje);
+            //Lanza el mensaje de introducir numero/frase/decimal, etc en bucle
+            //hasta que se ingrese el dato necesario. (Escapa con el return)
             try {
                 return scanner.nextByte();
             } catch (InputMismatchException e) {

@@ -1,4 +1,4 @@
-package TEMA_2.NIVEL_3;
+package TEMA_2.NIVEL_3.Exceptions;
 
 public class ExcepcionButacaLibre extends Exception{
     public ExcepcionButacaLibre() {

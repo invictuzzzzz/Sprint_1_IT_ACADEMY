@@ -12,20 +12,20 @@ public class Main {
     public static void main(String[] args) {
 
         String mensaje = "";
-        int opcion = 0;
+        int opcion;
 
         System.out.println("Bienvenido al programa de redaccion de noticias deportivas.");
         do {
             System.out.print(
                     "0. Salir del programa. \n" +
-                    "1. Introducir redactor. \n" +
-                    "2. Eliminar redactor. \n" +
-                    "3. Introducir noticia a un redactor. \n" +
-                    "4. Eliminar notica de un redactor. \n" +
-                    "5. Mostrar todas las noticias de un redactor. \n" +
-                    "6. Calcular puntuacion de la noticia. \n" +
-                    "7. Calcular precio de noticia. \n" +
-                    "\nIntroduzca la opcion deseada: ");
+                            "1. Introducir redactor. \n" +
+                            "2. Eliminar redactor. \n" +
+                            "3. Introducir noticia a un redactor. \n" +
+                            "4. Eliminar notica de un redactor. \n" +
+                            "5. Mostrar todas las noticias de un redactor. \n" +
+                            "6. Calcular puntuacion de la noticia. \n" +
+                            "7. Calcular precio de noticia. \n" +
+                            "\nIntroduzca la opcion deseada: ");
 
             opcion = entrada.nextInt();
             entrada.nextLine();
@@ -55,7 +55,7 @@ public class Main {
                         break;
                 }
                 System.out.println(mensaje);
-            } catch (Exception e){
+            } catch (Exception e) {
                 System.out.println(e.getMessage());
             }
         } while (opcion != 0);
@@ -65,13 +65,12 @@ public class Main {
     public static String introducirRedactor() {
         boolean dniUnico = false;
         String resultado = "";
-        String nombre = "";
-        String dni = "";
+
         System.out.print("\nIntroduzca el nombre del redactor: ");
-        nombre = entrada.nextLine().toUpperCase();
+        String nombre = entrada.nextLine().toUpperCase();
         while (!dniUnico) {
             System.out.print("\nIntroduzca el DNI del redactor: ");
-            dni = entrada.nextLine().toUpperCase();
+            String dni = entrada.nextLine().toUpperCase();
             if (busquedaRedactorPorDni(dni) != -1) {
                 System.out.println("** Ya existe un redactor con ese DNI.** ");
             } else {
@@ -83,15 +82,16 @@ public class Main {
                 resultado = "\nSe ha creado e introducido en el sistema al redactor \n" + redactor.toString() + "\n";
             }
         }
-            return resultado;
+        return resultado;
     }
 
     public static String eliminarRedactor() {
 
-        String resultado = "";
-        String dniBuscado = "";
-        String redactorBuscado = "";
-        int posArrayRedactor = 0;
+        String resultado;
+        String dniBuscado;
+        String redactorBuscado;
+        int posArrayRedactor;
+
         System.out.print("Introduzca el DNI del redactor a eliminar: ");
         dniBuscado = entrada.nextLine();
         posArrayRedactor = busquedaRedactorPorDni(dniBuscado);
@@ -107,25 +107,19 @@ public class Main {
 
     public static String introducirNoticia() {
 
-        String resultado = "";
-        String dniBusc = "";
-        String nombreRedactor = "";
+
         String tipo = "";
-        String titular = "";
-        String competicion = "";
-        String club = "";
-        String jugador = "";
-        String tenista = "";
-        String equipo = "";
-        int posArrayRedac = 0;
-        int opcion = 0;
+        String resultado;
+        int posArrayRedac;
+        int opcion;
+
         System.out.print("Introduzca el DNI del redactor al que añadir la noticia: ");
-        dniBusc = entrada.nextLine();
+        String dniBusc = entrada.nextLine();
         posArrayRedac = busquedaRedactorPorDni(dniBusc);
         if (posArrayRedac == -1) {
             resultado = "No se ha encontrado en el sistema, el redactor indicado.";
         } else {
-            nombreRedactor = redactores.get(posArrayRedac).getNombre().toUpperCase();
+            String nombreRedactor = redactores.get(posArrayRedac).getNombre().toUpperCase();
             System.out.print("\nQue tipo de noticia quiere añadir al redactor " + nombreRedactor + "\n" +
                     "1. Futbol. \n" +
                     "2. Basquet. \n" +
@@ -136,15 +130,16 @@ public class Main {
             opcion = entrada.nextInt();
             entrada.nextLine();
             System.out.print("Introduzca el titular de la noticia: ");
-            titular = entrada.nextLine().toUpperCase();
+            String titular = entrada.nextLine().toUpperCase();
             switch (opcion) {
+
                 case 1:
                     System.out.print("Introduzca la competicion: ");
-                    competicion = entrada.nextLine();
+                    String competicion = entrada.nextLine();
                     System.out.print("Introduzca el club: ");
-                    club = entrada.nextLine();
+                    String club = entrada.nextLine();
                     System.out.print("Introduzca el jugador: ");
-                    jugador = entrada.nextLine();
+                    String jugador = entrada.nextLine();
                     NoticiaFutbol noticiaFutbol = new NoticiaFutbol(titular, competicion, club, jugador);
                     redactores.get(posArrayRedac).getNoticias().add(noticiaFutbol);
                     tipo = "Futbol";
@@ -162,14 +157,14 @@ public class Main {
                     System.out.print("Introduzca la competicion: ");
                     competicion = entrada.nextLine();
                     System.out.print("Introduzca el tenista: ");
-                    tenista = entrada.nextLine();
+                    String tenista = entrada.nextLine();
                     NoticiaTenis noticiaTenis = new NoticiaTenis(titular, competicion, tenista);
                     redactores.get(posArrayRedac).getNoticias().add(noticiaTenis);
                     tipo = "Tenis";
                     break;
                 case 4:
                     System.out.print("Introduzca la escuderia: ");
-                    equipo = entrada.nextLine();
+                    String equipo = entrada.nextLine();
                     NoticiaF1 noticiaF1 = new NoticiaF1(titular, equipo);
                     redactores.get(posArrayRedac).getNoticias().add(noticiaF1);
                     tipo = "Formula 1";
@@ -192,12 +187,13 @@ public class Main {
     }
 
     public static String eliminarNoticiaDelRedactor() {
-        String resultado = "";
-        String dniBusc = "";
-        String titularElegido = "";
+        String resultado;
+        String dniBusc;
+        String titularElegido;
         Redactor redactorEncontrado;
-        int posArrayRedactor = 0;
-        int posArrayNoticia = 0;
+        int posArrayRedactor;
+        int posArrayNoticia;
+
         System.out.print("Introduzca el DNI del redactor al que eliminar la noticia: ");
         dniBusc = entrada.nextLine();
 
@@ -228,19 +224,19 @@ public class Main {
         redactorEncontrado.getNoticias().remove(posArrayNoticia);
         resultado = "Se ha eliminado la noticia " + titularElegido + " del redactor " + redactorEncontrado;
 
-
         return resultado;
     }
 
     public static String mostrarNoticiasRedactor() {
 
         String resultado = "";
-        String dniBusc = "";
+        String dniBusc;
         Redactor redactorElegido;
 
         System.out.print("Introduzca el DNI del redactor del que quiere ver las noticias: ");
         dniBusc = entrada.nextLine();
         redactorElegido = buscarRedactor(dniBusc);
+
         if (redactorElegido != null) {
             if (redactorElegido.getNoticias().isEmpty()) {
                 resultado = "El redactor indicado no tiene noticias introducidas.";
@@ -257,17 +253,19 @@ public class Main {
 
     public static String calcularPuntosNoticia() {
 
-        String resultado = "";
-        String dniBusc = "";
-        String titularElegido = "";
+        String resultado;
+        String dniBusc;
+        String titularElegido;
         Redactor redactorElegido;
         Noticia noticiaElegida;
-        int posArrayRedactor = 0;
-        int posArrayNoticia = 0;
-        int puntos = 0;
+        int posArrayRedactor;
+        int posArrayNoticia;
+        int puntos;
+
         System.out.print("Introduzca el DNI del redactor del que quiere calcular la noticia: ");
         dniBusc = entrada.nextLine();
         posArrayRedactor = busquedaRedactorPorDni(dniBusc);
+
         if (posArrayRedactor == -1) {
             resultado = "No se ha encontrado en el sistema, el redactor indicado.";
         } else {
@@ -297,17 +295,19 @@ public class Main {
 
     public static String calcularPrecioNoticia() {
 
-        String resultado = "";
-        String dniBusc = "";
-        String titularElegido = "";
+        String resultado;
+        String dniBusc;
+        String titularElegido;
         Redactor redactorElegido;
         Noticia noticiaElegida;
-        int posArrayRedactor = 0;
-        int posArrayNoticia = 0;
-        int precio = 0;
+        int posArrayRedactor;
+        int posArrayNoticia;
+        int precio;
+
         System.out.print("Introduzca el DNI del redactor del que quiere calcular la noticia: ");
         dniBusc = entrada.nextLine();
         posArrayRedactor = busquedaRedactorPorDni(dniBusc);
+
         if (posArrayRedactor == -1) {
             resultado = "\n** No se ha encontrado en el sistema, el redactor indicado.** ";
         } else {

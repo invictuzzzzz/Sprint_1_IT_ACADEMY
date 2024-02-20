@@ -1,7 +1,6 @@
 package TEMA_1.NIVEL_3;
 
 
-
 public class NoticiaMoto extends Noticia {
 
     private String equipo;

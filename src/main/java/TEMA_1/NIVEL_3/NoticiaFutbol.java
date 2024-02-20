@@ -47,11 +47,11 @@ public class NoticiaFutbol extends Noticia {
 
     public int calcularPrecioNoticia() {
 
-        int precioTotal = 0;
+        int precioTotal;
         int precioInicial = 300;
-        int precioPorCompeticion = 0;
-        int precioPorClub = 0;
-        int precioPorJugador = 0;
+        int precioPorCompeticion;
+        int precioPorClub;
+        int precioPorJugador;
 
         precioPorCompeticion = ((this.competicion.equalsIgnoreCase("champions league")) ? 100 : 0);
         precioPorClub = ((this.club.equalsIgnoreCase("Barça")) ||
@@ -66,11 +66,11 @@ public class NoticiaFutbol extends Noticia {
 
     public int calcularPuntosNoticia() {
 
-        int puntuacionTotal = 0;
+        int puntuacionTotal;
         int puntuacionInicial = 5;
         int puntosPorCompeticion = 0;
-        int puntosPorClub = 0;
-        int puntosPorJugador = 0;
+        int puntosPorClub;
+        int puntosPorJugador;
 
         if (this.competicion.equalsIgnoreCase("champions league")) {
             puntosPorCompeticion = 3;

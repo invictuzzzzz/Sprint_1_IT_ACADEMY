@@ -6,7 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_1/NIVEL_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_1/NIVEL_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Venta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/ventaVaciaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Exceptions/ventaVaciaException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_2/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_2/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Cine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Cine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/ExcepcionAsientoIncorrecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Exceptions/ExcepcionAsientoIncorrecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/ExcepcionButacaLibre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaLibre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/ExcepcionButacaOcupada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaOcupada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/ExcepcionFilaIncorrecta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Exceptions/ExcepcionFilaIncorrecta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/ExcepcionNombrePersonaIncorrecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Exceptions/ExcepcionNombrePersonaIncorrecto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/GestionButacas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/GestionButacas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +63,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "JUnit.TestCinco.verificarMap.executor": "Run",
+    "JUnit.TestSeis.ExceptionTest.executor": "Run",
     "JUnit.TestSeis.executor": "Run",
     "JUnit.TestSiete.objetoOpcionalVacio.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -74,7 +88,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSeis.ExceptionTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TEMA_2.NIVEL_3.Main" />
+      <module name="Sprint_1_IT_ACADEMY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TEMA_2.NIVEL_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCinco.verificarMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Sprint_1_IT_ACADEMY" />
       <extension name="coverage">
@@ -86,22 +113,6 @@
       <option name="PACKAGE_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_5" />
       <option name="MAIN_CLASS_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_5.TestCinco" />
       <option name="METHOD_NAME" value="verificarMap" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCuatro.testUnaVez" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Sprint_1_IT_ACADEMY" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TEMA_4.NIVEL_3.EJERCICIO_4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_4" />
-      <option name="MAIN_CLASS_NAME" value="TEMA_4.NIVEL_3.EJERCICIO_4.TestCuatro" />
-      <option name="METHOD_NAME" value="testUnaVez" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestSeis.ExceptionTest" />
         <item itemvalue="JUnit.TestSiete.objetoOpcionalVacio" />
         <item itemvalue="JUnit.TestSeis" />
         <item itemvalue="JUnit.TestCinco.verificarMap" />
-        <item itemvalue="JUnit.TestCuatro.testUnaVez" />
       </list>
     </recent_temporary>
   </component>

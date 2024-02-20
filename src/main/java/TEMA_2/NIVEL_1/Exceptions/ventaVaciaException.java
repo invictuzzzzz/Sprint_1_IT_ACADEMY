@@ -1,4 +1,4 @@
-package TEMA_2.NIVEL_1;
+package TEMA_2.NIVEL_1.Exceptions;
 
 public class ventaVaciaException extends Exception{
     public ventaVaciaException() {

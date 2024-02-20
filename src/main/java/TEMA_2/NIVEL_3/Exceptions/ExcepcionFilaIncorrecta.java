@@ -1,4 +1,4 @@
-package TEMA_2.NIVEL_3;
+package TEMA_2.NIVEL_3.Exceptions;
 
 public class ExcepcionFilaIncorrecta extends Exception{
     public ExcepcionFilaIncorrecta() {

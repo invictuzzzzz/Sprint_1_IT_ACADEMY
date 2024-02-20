@@ -27,7 +27,7 @@ public class Redactor {
     }
 
     public static int getSueldo() {
-        return  sueldo;
+        return sueldo;
     }
 
     public static void setSueldo(int sueldo) {

@@ -7,6 +7,5 @@ public class Main {
 
         Cine cine = new Cine();
         cine.iniciar();
-
     }
 }
