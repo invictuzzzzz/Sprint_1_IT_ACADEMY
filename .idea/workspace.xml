@@ -5,107 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorArchivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorEscritura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorLectura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/ObjectoSerializable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Configuracion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorArchivos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorEscritura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_1/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_1/NoGenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/GenericMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_1/GenericMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_1/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_2/GenericMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_2/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Generica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Telefono.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Venta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_1/Venta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/GestionButacas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_2/NIVEL_3/GestionButacas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_1/ejercicio_2/Listas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_1/ejercicio_2/Listas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_1/ejercicio_3/GestorLectura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_1/ejercicio_3/GestorLectura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_2/ejercicio_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_2/ejercicio_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_3/GestorEscritura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_3/GestorEscritura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_3/NIVEL_3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_4/NIVEL_1/EJERCICIO_1/MesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_4/NIVEL_1/EJERCICIO_1/MesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_4/NIVEL_2/HamcrestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TEMA_4/NIVEL_2/HamcrestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_4/NIVEL_3/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_4/NIVEL_3/ArrayListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/Instrumento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/Instrumento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoCuerda.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoCuerda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoPercusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoPercusion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoViento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/InstrumentoViento.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej2/Coche.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej2/Coche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_1/ej2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Camara.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Camara.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Reloj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Reloj.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Smartphone.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Smartphone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Telefono.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_2/Telefono.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Noticia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Noticia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaBasquet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaBasquet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaF1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaF1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaFutbol.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaFutbol.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaMoto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaMoto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaTenis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/NoticiaTenis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Redactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_1/NIVEL_3/Redactor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Exceptions/ventaVaciaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Exceptions/ventaVaciaException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Producto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Producto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Venta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_1/Venta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_2/Entrada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_2/Entrada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Butaca.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Butaca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Cine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Cine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionAsientoIncorrecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionAsientoIncorrecto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaLibre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaLibre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaOcupada.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionButacaOcupada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionFilaIncorrecta.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionFilaIncorrecta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionNombrePersonaIncorrecto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Exceptions/ExcepcionNombrePersonaIncorrecto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/GestionButacas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/GestionButacas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_2/NIVEL_3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_1/Month.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_1/Month.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_2/Listas.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_2/Listas.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/GestorEscritura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/GestorEscritura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/GestorLectura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/GestorLectura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/Jugador.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/Jugador.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_1/ejercicio_3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_1/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_1/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_2/Restaurante.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_2/ejercicio_2/Restaurante.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorApellidoAZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorApellidoAZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorApellidoZA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorApellidoZA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorNombreAZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorNombreAZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorNombreZA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/ComparadorNombreZA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/GestorEscritura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/GestorEscritura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/GestorLectura.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/GestorLectura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_3/NIVEL_3/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_1/MesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_1/MesManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_1/Meses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_1/Meses.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_2/CalculoDni.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_2/CalculoDni.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_3/ClasePrueba.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_3/ClasePrueba.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_3/ClasePruebaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_1/EJERCICIO_3/ClasePruebaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_2/HamcrestTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_2/HamcrestTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/ArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/ArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/Coche.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/Coche.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/Persona.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_4/NIVEL_3/Persona.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_1/MesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_1/MesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_2/CalculoDniTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_2/CalculoDniTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_1/TestUno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_1/TestUno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_2/TestDos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_2/TestDos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_3/TestTres.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_3/TestTres.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_4/TestCuatro.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_5/TestCinco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_5/TestCinco.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_6/TestSeis$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_6/TestSeis$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_6/TestSeis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_6/TestSeis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_7/TestSiete.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TEMA_4/NIVEL_3/EJERCICIO_7/TestSiete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/GenericMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/GenericMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_1/EJERCICIO_2/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_6/Coche.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_6/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_6/NoGenericMethods.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +31,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -156,6 +73,9 @@
     "Application.TEMA_5.NIVEL_1.Main.executor": "Run",
     "Application.TEMA_5.NIVEL_2.Main.executor": "Run",
     "Application.TEMA_6.Main.executor": "Run",
+    "Application.TEMA_6.NIVEL_1.EJERCICIO_2.Main.executor": "Run",
+    "Application.TEMA_6.NIVEL_2.EJERCICIO_2.Main.executor": "Run",
+    "Application.TEMA_6.NIVEL_3.Main.executor": "Run",
     "JUnit.TestCinco.verificarMap.executor": "Run",
     "JUnit.TestSeis.ExceptionTest.executor": "Run",
     "JUnit.TestSeis.executor": "Run",
@@ -164,16 +84,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/laurafernandezgines/IdeaProjects/Sprint_1_IT_ACADEMY/src/test/java",
+    "last_opened_file_path": "/Users/laurafernandezgines/IdeaProjects/Sprint_1_IT_ACADEMY/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_1",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2/EJERCICIO_1" />
+      <recent name="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_2" />
       <recent name="$PROJECT_DIR$/src/main/java/TEMA_4" />
       <recent name="$PROJECT_DIR$/src/main/java/TEMA_3" />
       <recent name="$PROJECT_DIR$/src/main/java/TEMA_2" />
-      <recent name="$PROJECT_DIR$/src/main/java/TEMA_1/NIVEL_3" />
-      <recent name="$PROJECT_DIR$/src/main/java/TEMA_1/NIVEL_2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="TEMA_4.NIVEL_3" />

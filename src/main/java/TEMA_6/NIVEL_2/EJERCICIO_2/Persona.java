@@ -1,4 +1,4 @@
-package TEMA_6.NIVEL_1.EJERCICIO_2;
+package TEMA_6.NIVEL_2.EJERCICIO_2;
 
 public class Persona {
     private String nombre;
