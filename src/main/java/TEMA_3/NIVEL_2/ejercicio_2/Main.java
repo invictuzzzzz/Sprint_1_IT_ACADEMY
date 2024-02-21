@@ -28,7 +28,7 @@ public class Main {
         restaurantes.add(restaurante8);
         restaurantes.add(restaurante9);
 
-        TreeSet restaurantes2 = new TreeSet<>(restaurantes);
+        TreeSet restaurantes2 = new TreeSet<Restaurante>(restaurantes);
         //Convertimos el HashSet del ej anterior en un TreeSet.
         //Con el TreeSet lo añadido se muestra en orden Ascende o Descendiente según necesites
         System.out.println("El TreeSet tiene un total de : " + restaurantes2.size() +

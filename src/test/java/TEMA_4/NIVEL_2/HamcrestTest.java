@@ -2,9 +2,7 @@ package TEMA_4.NIVEL_2;
 
 import org.hamcrest.*;
 import org.hamcrest.Matcher;
-import org.testng.annotations.Test;
-
-import static org.hamcrest.CoreMatchers.*;
+import org.junit.jupiter.api.Test;
 import static org.hamcrest.CoreMatchers.is;
 
 public class HamcrestTest {

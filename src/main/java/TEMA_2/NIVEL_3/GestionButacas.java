@@ -10,7 +10,7 @@ public class GestionButacas {
     private ArrayList<Butaca> butacas;
 
     public GestionButacas() {
-        this.butacas = new ArrayList<>();
+        this.butacas = new ArrayList<Butaca>();
     }
 
     public ArrayList<Butaca> getButacas() {

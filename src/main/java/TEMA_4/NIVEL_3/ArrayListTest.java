@@ -6,7 +6,7 @@ public class ArrayListTest {
 
 
     public ArrayList<Object> generarArrayList() {
-        ArrayList<Object> pruebaArrayList = new ArrayList<>();
+        ArrayList<Object> pruebaArrayList = new ArrayList<Object>();
         Object objeto1 = new Persona("Pepe", 23);
         Object objeto2 = new Coche("Ford", 1200);
         Object objeto4 = objeto2;

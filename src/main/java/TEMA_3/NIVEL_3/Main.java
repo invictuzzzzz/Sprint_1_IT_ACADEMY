@@ -15,11 +15,9 @@ public class Main {
 
         int opcion = 0;
         String mensaje = "";
-        String inputFilePath = "", outputFilePath = "";
-
 
         // Lectura de fichero CSV y conversion a TreeSet
-        inputFilePath = "Sprint1_S3/src/NIVEL_3/personas.csv";
+        String inputFilePath = "src/main/java/TEMA_3/NIVEL_3/personas.csv";
 
         guardarEnTreeSet(inputFilePath);
         ArrayList<Persona> ListaPersonasAL = new ArrayList<Persona>(ListaPersonasTS);
@@ -72,12 +70,8 @@ public class Main {
         } while (opcion != 0);
 
         // Escritura de TreeSet a archivo CSV
-        outputFilePath = "Sprint1_S3/src/NIVEL_3/personas.csv";
-        try {
-            mensaje = gestorEscritura.TreeSetToCSV(outputFilePath, ListaPersonasTS);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        String outputFilePath = "src/main/java/TEMA_3/NIVEL_3/personas.csv";
+        mensaje = gestorEscritura.TreeSetToCSV(outputFilePath, ListaPersonasTS);
         System.out.println(mensaje);
     }
 

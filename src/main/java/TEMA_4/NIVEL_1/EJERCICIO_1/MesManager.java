@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class MesManager {
 
     public static ArrayList<Meses> crearMeses() {
-        ArrayList<Meses> listaMeses = new ArrayList<>();
+        ArrayList<Meses> listaMeses = new ArrayList<Meses>();
 
 
         Meses enero = new Meses("Enero", 1);

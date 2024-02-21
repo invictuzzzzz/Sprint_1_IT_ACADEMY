@@ -9,7 +9,7 @@ public class Venta {
     private double total = 0; //Por defecto al crear la venta el total es 0
 
     public Venta() {
-        this.productos = new ArrayList<>();
+        this.productos = new ArrayList<Producto>();
     }
 
     public double getTotal() {

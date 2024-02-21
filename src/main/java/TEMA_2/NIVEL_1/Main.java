@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public class Main {
     static Scanner entrada = new Scanner(System.in);
-    static ArrayList<Producto> productos = new ArrayList<>();
-    static ArrayList<Venta> ventas = new ArrayList<>();
+    static ArrayList<Producto> productos = new ArrayList<Producto>();
+    static ArrayList<Venta> ventas = new ArrayList<Venta>();
 
     public static void main(String[] args) {
         Venta nuevaVenta = new Venta();

@@ -16,7 +16,7 @@ public class Listas {
         listaUno.add(4);
         listaUno.add(5);
 
-        List<Integer> listaDos = new ArrayList<>();
+        List<Integer> listaDos = new ArrayList<Integer>();
 
         for (int i = listaUno.size() -1; i > 0; i--) {
             listaDos.add(listaUno.get(i));

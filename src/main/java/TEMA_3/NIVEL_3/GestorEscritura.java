@@ -7,8 +7,7 @@ public class GestorEscritura {
 
     public GestorEscritura() {}
 
-    public String TreeSetToCSV(String outputFilePath, TreeSet<Persona> listaPersonas)
-            throws IOException, FileNotFoundException {
+    public String TreeSetToCSV(String outputFilePath, TreeSet<Persona> listaPersonas) {
 
         String mensaje = "";
 
@@ -30,6 +29,8 @@ public class GestorEscritura {
             bufferW.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
         }
         return mensaje;
     }
