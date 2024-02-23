@@ -20,8 +20,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        String rutaArchivoCountries = "Sprint1_S3/src/NIVEL_1/ejercicio_3/countries.txt";
-        String rutaArchivoClasificacion = "Sprint1_S3/src/NIVEL_1/ejercicio_3/clasificacion.txt";
+        String rutaArchivoCountries = "src/main/java/TEMA_3/NIVEL_1/ejercicio_3/countries.txt";
+        String rutaArchivoClasificacion = "src/main/java/TEMA_3/NIVEL_1/ejercicio_3/clasificacion.txt";
         GestorLectura gestorLectura = new GestorLectura(rutaArchivoCountries);
         GestorEscritura gestorEscritura = new GestorEscritura(rutaArchivoClasificacion);
         Scanner entrada = new Scanner(System.in);
@@ -50,11 +50,7 @@ public class Main {
 
         } while (contador < INTENTOS);
 
-        try {
-            gestorEscritura.escribirArchivo(nuevoJugador);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        gestorEscritura.escribirArchivo(nuevoJugador);
     }
 }
 

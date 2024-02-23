@@ -1,6 +1,6 @@
 package TEMA_7.NIVEL_2;
 
-@JsonSerializable(path = "src/main/java/TEMA_6/NIVEL_2/pepe.json")
+@JsonSerializable
 public class Trabajador {
     private String nombre;
     private String apellido;

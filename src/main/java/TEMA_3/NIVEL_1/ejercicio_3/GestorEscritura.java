@@ -3,9 +3,6 @@ package TEMA_3.NIVEL_1.ejercicio_3;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 
 public class GestorEscritura {
 
@@ -15,20 +12,18 @@ public class GestorEscritura {
         this.path = path;
     }
 
-  public void escribirArchivo(Jugador jugador) throws IOException {
-      String clasificacionFile = this.path;
-      BufferedWriter br = new BufferedWriter(new FileWriter(clasificacionFile));
+    public void escribirArchivo(Jugador jugador) {
+        String clasificacionFile = this.path;
 
+        try (BufferedWriter br = new BufferedWriter
+                (new FileWriter(clasificacionFile, true))) {
 
-      try {
-          Files.write(Paths.get(clasificacionFile), ("Nombre jugador: " + jugador.getNombre() +
-                  " con una puntuación de " + jugador.getPuntuacion() +
-                  " puntos en total.\n").getBytes(), StandardOpenOption.APPEND);
-          System.out.println("Archivo clasificacion escrito correctamente.");
-      } catch (
-              IOException e) {
-          System.out.println("Ha ocurrido un error.");
-      }
-  }
-
+            br.write("Nombre jugador: " + jugador.getNombre() +
+                    " con una puntuación de " + jugador.getPuntuacion() +
+                    " puntos en total.\n");
+            System.out.println("Datos del jugador agregados correctamente al archivo.");
+        } catch (IOException e) {
+            System.out.println("Ha ocurrido un error: " + e.getMessage());
+        }
+    }
 }
