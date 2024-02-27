@@ -23,7 +23,7 @@ public class Main {
         Trabajador trabajador = new Trabajador("Dani", "Diaz", 14);
         Trabajador trabajador2 = new Trabajador("Pepe", "Garcia", 14);
         Path path = of(trabajador.getClass().getAnnotation(JsonSerializable.class).path());
-        Path path2 = of(trabajador2.getClass().getAnnotation(JsonSerializable.class).path());
+
         try {
             mapper.writeValue(new File(String.valueOf(path)),trabajador);
             System.out.println("Se ha creado el archivo trabajador.json correctamente.");

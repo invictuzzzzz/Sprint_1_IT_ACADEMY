@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_5/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_5/PiValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_1/EJERCICIO_8/StringReverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_3/Operator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_3/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Telefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_6/NIVEL_3/Telefono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_7/NIVEL_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_7/NIVEL_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_7/NIVEL_3/trabajador2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_8/NIVEL_2/EJERCICIO_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TEMA_8/NIVEL_2/EJERCICIO_1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TEMA_8/NIVEL_2/EJERCICIO_1/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +87,8 @@
     "Application.TEMA_8.NIVEL_2.EJERCICIO_1.Main.executor": "Run",
     "Application.TEMA_8.NIVEL_2.EJERCICIO_2.Main.executor": "Run",
     "Application.TEMA_8.NIVEL_2.EJERCICIO_3.Main.executor": "Run",
+    "Application.TEMA_8.NIVEL_2.EJERCICIO_4.Main.executor": "Run",
+    "Application.TEMA_8.NIVEL_3.Main.executor": "Run",
     "JUnit.TestCinco.verificarMap.executor": "Run",
     "JUnit.TestSeis.ExceptionTest.executor": "Run",
     "JUnit.TestSeis.executor": "Run",
@@ -110,7 +103,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">

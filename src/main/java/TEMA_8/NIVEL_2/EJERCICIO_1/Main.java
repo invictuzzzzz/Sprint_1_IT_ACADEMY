@@ -10,6 +10,7 @@ public class Main {
 
         List<String> stringList = Arrays.asList("Teresa", "Maria", "Anibal",
                 "Alabama", "Ana", "Fernando", "Alt");
+
         listFilter(stringList, "A", 3).forEach(n -> System.out.println(n));
     }
 
