@@ -56,11 +56,11 @@ __(D)  ejercicio_1:
 __(D)  ejercicio_2:
    (F):   Listas.java 	 Ultima modificación: 20/02/2024
 __(D)  ejercicio_3:
-   (F):   GestorEscritura.java 	 Ultima modificación: 19/02/2024
+   (F):   GestorEscritura.java 	 Ultima modificación: 23/02/2024
    (F):   GestorLectura.java 	 Ultima modificación: 20/02/2024
    (F):   Jugador.java 	 Ultima modificación: 19/02/2024
-   (F):   Main.java 	 Ultima modificación: 19/02/2024
-   (F):   clasificacion.txt 	 Ultima modificación: 17/02/2024
+   (F):   Main.java 	 Ultima modificación: 23/02/2024
+   (F):   clasificacion.txt 	 Ultima modificación: 23/02/2024
    (F):   countries.txt 	 Ultima modificación: 17/02/2024
 __(D) NIVEL_2:
 __(D)  ejercicio_1:
@@ -112,3 +112,85 @@ __(D) NIVEL_2:
   (F):  Main.java 	 Ultima modificación: 21/02/2024
   (F):  config.properties 	 Ultima modificación: 21/02/2024
   (F):  listadoDirectorioParametrizado.txt 	 Ultima modificación: 21/02/2024
+
+*(D)TEMA_6:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F):   Coche.java 	 Ultima modificación: 21/02/2024
+   (F):   Main.java 	 Ultima modificación: 21/02/2024
+   (F):   NoGenericMethods.java 	 Ultima modificación: 21/02/2024
+__(D)  EJERCICIO_2:
+   (F):   GenericMethods.java 	 Ultima modificación: 21/02/2024
+   (F):   Main.java 	 Ultima modificación: 21/02/2024
+   (F):   Persona.java 	 Ultima modificación: 21/02/2024
+__(D) NIVEL_2:
+__(D)  EJERCICIO_1:
+   (F):   GenericMethods.java 	 Ultima modificación: 21/02/2024
+   (F):   Main.java 	 Ultima modificación: 21/02/2024
+   (F):   Persona.java 	 Ultima modificación: 21/02/2024
+__(D)  EJERCICIO_2:
+   (F):   GenericMethods.java 	 Ultima modificación: 21/02/2024
+   (F):   Main.java 	 Ultima modificación: 21/02/2024
+   (F):   Persona.java 	 Ultima modificación: 21/02/2024
+__(D) NIVEL_3:
+  (F):  Generica.java 	 Ultima modificación: 22/02/2024
+  (F):  Main.java 	 Ultima modificación: 22/02/2024
+  (F):  Smartphone.java 	 Ultima modificación: 22/02/2024
+  (F):  Telefono.java 	 Ultima modificación: 23/02/2024
+
+*(D)TEMA_7:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F):   Main.java 	 Ultima modificación: 22/02/2024
+   (F):   Trabajador.java 	 Ultima modificación: 22/02/2024
+   (F):   TrabajadorOnline.java 	 Ultima modificación: 22/02/2024
+   (F):   TrabajadorPresencial.java 	 Ultima modificación: 22/02/2024
+__(D)  EJERCICIO_2:
+   (F):   Main.java 	 Ultima modificación: 22/02/2024
+   (F):   Trabajador.java 	 Ultima modificación: 22/02/2024
+   (F):   TrabajadorOnline.java 	 Ultima modificación: 22/02/2024
+   (F):   TrabajadorPresencial.java 	 Ultima modificación: 22/02/2024
+__(D) NIVEL_2:
+  (F):  JsonSerializable.java 	 Ultima modificación: 23/02/2024
+  (F):  Main.java 	 Ultima modificación: 25/02/2024
+  (F):  Trabajador.java 	 Ultima modificación: 23/02/2024
+  (F):  trabajador.json 	 Ultima modificación: 23/02/2024
+__(D) NIVEL_3:
+  (F):  JsonSerializable.java 	 Ultima modificación: 23/02/2024
+  (F):  Main.java 	 Ultima modificación: 27/02/2024
+  (F):  Trabajador.java 	 Ultima modificación: 23/02/2024
+  (F):  trabajador.json 	 Ultima modificación: 27/02/2024
+
+*(D)TEMA_8:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_2:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_3:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_4:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_5:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+   (F):   PiValue.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_6:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_7:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_8:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+   (F):   StringReverse.java 	 Ultima modificación: 25/02/2024
+__(D) NIVEL_2:
+__(D)  EJERCICIO_1:
+   (F):   Main.java 	 Ultima modificación: 27/02/2024
+__(D)  EJERCICIO_2:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_3:
+   (F):   Main.java 	 Ultima modificación: 25/02/2024
+   (F):   Operator.java 	 Ultima modificación: 25/02/2024
+__(D)  EJERCICIO_4:
+   (F):   Main.java 	 Ultima modificación: 27/02/2024
+__(D) NIVEL_3:
+  (F):  Alumno.java 	 Ultima modificación: 27/02/2024
+  (F):  Main.java 	 Ultima modificación: 27/02/2024
