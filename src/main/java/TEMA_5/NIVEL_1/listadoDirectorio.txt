@@ -98,19 +98,32 @@ __(D) NIVEL_3:
 
 *(D)TEMA_5:
 __(D) NIVEL_1:
+  (F):  GestorArchivos.class 	 Ultima modificación: 27/02/2024
   (F):  GestorArchivos.java 	 Ultima modificación: 20/02/2024
+  (F):  GestorEscritura.class 	 Ultima modificación: 27/02/2024
   (F):  GestorEscritura.java 	 Ultima modificación: 20/02/2024
+  (F):  GestorLectura.class 	 Ultima modificación: 27/02/2024
   (F):  GestorLectura.java 	 Ultima modificación: 20/02/2024
-  (F):  Main.java 	 Ultima modificación: 21/02/2024
+  (F):  Main.class 	 Ultima modificación: 27/02/2024
+  (F):  Main.java 	 Ultima modificación: 27/02/2024
+  (F):  ObjectoSerializable.class 	 Ultima modificación: 27/02/2024
   (F):  ObjectoSerializable.java 	 Ultima modificación: 21/02/2024
-  (F):  listadoDirectorio.txt 	 Ultima modificación: 21/02/2024
-  (F):  persona.ser 	 Ultima modificación: 21/02/2024
+  (F):  README.txt 	 Ultima modificación: 27/02/2024
+  (F):  listadoDirectorio.txt 	 Ultima modificación: 27/02/2024
 __(D) NIVEL_2:
+  (F):  Configuracion.class 	 Ultima modificación: 27/02/2024
   (F):  Configuracion.java 	 Ultima modificación: 21/02/2024
+  (F):  GestorArchivos$1.class 	 Ultima modificación: 27/02/2024
+  (F):  GestorArchivos.class 	 Ultima modificación: 27/02/2024
   (F):  GestorArchivos.java 	 Ultima modificación: 21/02/2024
+  (F):  GestorEscritura.class 	 Ultima modificación: 27/02/2024
   (F):  GestorEscritura.java 	 Ultima modificación: 21/02/2024
-  (F):  Main.java 	 Ultima modificación: 21/02/2024
-  (F):  config.properties 	 Ultima modificación: 21/02/2024
+  (F):  GestorLectura.class 	 Ultima modificación: 27/02/2024
+  (F):  GestorLectura.java 	 Ultima modificación: 27/02/2024
+  (F):  Main.class 	 Ultima modificación: 27/02/2024
+  (F):  Main.java 	 Ultima modificación: 27/02/2024
+  (F):  README.txt 	 Ultima modificación: 27/02/2024
+  (F):  config.properties 	 Ultima modificación: 27/02/2024
   (F):  listadoDirectorioParametrizado.txt 	 Ultima modificación: 21/02/2024
 
 *(D)TEMA_6:

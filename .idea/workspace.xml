@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="" />
+    <list default="true" id="c1032434-33c4-4387-89a6-ca3e48ec76e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorEscritura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorLectura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/ObjectoSerializable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Configuracion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorArchivos.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorEscritura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorLectura.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorLectura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/GestorArchivos$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/GestorArchivos$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_1/persona.ser" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TEMA_5/NIVEL_2/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,11 +128,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="TEMA_5.NIVEL_2" />
       <recent name="TEMA_8.NIVEL_1.EJERCICIO_7" />
       <recent name="TEMA_8.NIVEL_1.EJERCICIO_4" />
       <recent name="TEMA_8.NIVEL_1.EJERCICIO_2" />
       <recent name="TEMA_7.NIVEL_2" />
-      <recent name="TEMA_5.NIVEL_2" />
     </key>
   </component>
   <component name="RunManager">

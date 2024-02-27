@@ -1,9 +1,5 @@
 package TEMA_5.NIVEL_2;
 
-import TEMA_5.NIVEL_1.GestorArchivos;
-import TEMA_5.NIVEL_1.GestorEscritura;
-import TEMA_5.NIVEL_1.GestorLectura;
-
 import java.util.Properties;
 
 
