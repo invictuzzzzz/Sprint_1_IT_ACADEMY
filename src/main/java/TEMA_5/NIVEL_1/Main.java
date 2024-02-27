@@ -1,7 +1,5 @@
 package TEMA_5.NIVEL_1;
 
-import TEMA_3.NIVEL_3.Persona;
-
 import java.io.*;
 
 public class Main {
