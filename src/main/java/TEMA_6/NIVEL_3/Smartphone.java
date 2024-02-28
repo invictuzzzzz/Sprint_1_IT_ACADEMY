@@ -1,8 +1,8 @@
 package TEMA_6.NIVEL_3;
 
 public class Smartphone implements Telefono {
-    String marca;
-    String modelo;
+    private String marca;
+    private String modelo;
 
     public Smartphone(String marca, String modelo) {
         this.marca = marca;
