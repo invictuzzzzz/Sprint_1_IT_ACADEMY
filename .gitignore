@@ -19,6 +19,9 @@ target/
 *.iml
 *.ipr
 *.class
+*.gitignore
+*.pom.xml
+
 
 ### NetBeans ###
 /nbproject/private/
