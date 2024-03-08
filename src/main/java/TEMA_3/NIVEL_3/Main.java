@@ -145,10 +145,6 @@ public class Main {
 
     public static void guardarEnTreeSet(String inputFilePath) {
 
-        try {
-            ListaPersonasTS = gestorLectura.fileToTreeSet(inputFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        ListaPersonasTS = gestorLectura.fileToTreeSet(inputFilePath);
     }
 }

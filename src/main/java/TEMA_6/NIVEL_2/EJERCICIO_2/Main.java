@@ -13,7 +13,10 @@ public class Main {
         Persona persona1 = new Persona("Pepe", "Garcia", 21);
         String palabra1 = "Camiseta";
 
-        List<Object> lista = Arrays.asList(persona,ciudad,valor, persona1, valor2, palabra1, ciudad);
-        GenericMethods.listaVariablesIndefinida(lista);
+        GenericMethods.cantidadVariableArgs(persona);
+        GenericMethods.cantidadVariableArgs(persona, ciudad);
+        GenericMethods.cantidadVariableArgs(persona, ciudad, valor);
+        GenericMethods.cantidadVariableArgs(persona, ciudad, valor, persona1, valor2, palabra1);
+
     }
 }

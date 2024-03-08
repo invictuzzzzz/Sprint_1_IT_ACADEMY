@@ -1,0 +1,197 @@
+
+*(D)TEMA_1:
+__(D) NIVEL_1:
+__(D)  ej1:
+   (F)   Instrumento.java 	 28/02/2024
+   (F)   InstrumentoCuerda.java 	 28/02/2024
+   (F)   InstrumentoPercusion.java 	 28/02/2024
+   (F)   InstrumentoViento.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+__(D)  ej2:
+   (F)   Coche.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+__(D) NIVEL_2:
+  (F)  Camara.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  Reloj.java 	 28/02/2024
+  (F)  Smartphone.java 	 28/02/2024
+  (F)  Telefono.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  Main.java 	 28/02/2024
+  (F)  Noticia.java 	 28/02/2024
+  (F)  NoticiaBasquet.java 	 28/02/2024
+  (F)  NoticiaF1.java 	 28/02/2024
+  (F)  NoticiaFutbol.java 	 28/02/2024
+  (F)  NoticiaMoto.java 	 28/02/2024
+  (F)  NoticiaTenis.java 	 28/02/2024
+  (F)  Redactor.java 	 28/02/2024
+
+*(D)TEMA_2:
+__(D) NIVEL_1:
+__(D)  Exceptions:
+   (F)   ventaVaciaException.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  Producto.java 	 28/02/2024
+  (F)  Venta.java 	 28/02/2024
+__(D) NIVEL_2:
+  (F)  Entrada.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  Butaca.java 	 28/02/2024
+  (F)  Cine.java 	 28/02/2024
+__(D)  Exceptions:
+   (F)   ExcepcionAsientoIncorrecto.java 	 28/02/2024
+   (F)   ExcepcionButacaLibre.java 	 28/02/2024
+   (F)   ExcepcionButacaOcupada.java 	 28/02/2024
+   (F)   ExcepcionFilaIncorrecta.java 	 28/02/2024
+   (F)   ExcepcionNombrePersonaIncorrecto.java 	 28/02/2024
+  (F)  GestionButacas.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+
+*(D)TEMA_3:
+__(D) NIVEL_1:
+__(D)  ejercicio_1:
+   (F)   Main.java 	 08/03/2024
+   (F)   Month.java 	 28/02/2024
+__(D)  ejercicio_2:
+   (F)   Listas.java 	 28/02/2024
+__(D)  ejercicio_3:
+   (F)   GestorEscritura.java 	 28/02/2024
+   (F)   GestorLectura.java 	 28/02/2024
+   (F)   Jugador.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+   (F)   clasificacion.txt 	 28/02/2024
+   (F)   countries.txt 	 28/02/2024
+__(D) NIVEL_2:
+__(D)  ejercicio_1:
+   (F)   Main.java 	 08/03/2024
+   (F)   Restaurante.java 	 28/02/2024
+__(D)  ejercicio_2:
+   (F)   Main.java 	 28/02/2024
+   (F)   Restaurante.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  ComparadorApellidoAZ.java 	 28/02/2024
+  (F)  ComparadorApellidoZA.java 	 28/02/2024
+  (F)  ComparadorNombreAZ.java 	 28/02/2024
+  (F)  ComparadorNombreZA.java 	 28/02/2024
+  (F)  GestorEscritura.java 	 08/03/2024
+  (F)  GestorLectura.java 	 08/03/2024
+  (F)  Main.java 	 08/03/2024
+  (F)  Persona.java 	 28/02/2024
+  (F)  personas.csv 	 08/03/2024
+
+*(D)TEMA_4:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F)   MesManager.java 	 28/02/2024
+   (F)   Meses.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   CalculoDni.java 	 28/02/2024
+__(D)  EJERCICIO_3:
+   (F)   ClasePrueba.java 	 28/02/2024
+   (F)   ClasePruebaTest.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  ArrayListTest.java 	 28/02/2024
+  (F)  Coche.java 	 28/02/2024
+  (F)  Persona.java 	 28/02/2024
+
+*(D)TEMA_5:
+__(D) NIVEL_1:
+  (F)  GestorArchivos.java 	 08/03/2024
+  (F)  GestorEscritura.java 	 28/02/2024
+  (F)  GestorLectura.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  ObjectoSerializable.java 	 28/02/2024
+  (F)  README.txt 	 28/02/2024
+  (F)  listadoDirectorio.txt 	 08/03/2024
+  (F)  persona.ser 	 08/03/2024
+__(D) NIVEL_2:
+  (F)  Configuracion.java 	 08/03/2024
+  (F)  GestorArchivos.java 	 08/03/2024
+  (F)  GestorEscritura.java 	 28/02/2024
+  (F)  GestorLectura.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  README.txt 	 28/02/2024
+  (F)  config.properties 	 08/03/2024
+
+*(D)TEMA_6:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F)   Coche.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+   (F)   NoGenericMethods.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   GenericMethods.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+   (F)   Persona.java 	 28/02/2024
+__(D) NIVEL_2:
+__(D)  EJERCICIO_1:
+   (F)   GenericMethods.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+   (F)   Persona.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   GenericMethods.java 	 28/02/2024
+   (F)   Main.java 	 28/02/2024
+   (F)   Persona.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  Generica.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  Smartphone.java 	 28/02/2024
+  (F)  Telefono.java 	 28/02/2024
+
+*(D)TEMA_7:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F)   Main.java 	 28/02/2024
+   (F)   Trabajador.java 	 28/02/2024
+   (F)   TrabajadorOnline.java 	 28/02/2024
+   (F)   TrabajadorPresencial.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   Main.java 	 28/02/2024
+   (F)   Trabajador.java 	 28/02/2024
+   (F)   TrabajadorOnline.java 	 28/02/2024
+   (F)   TrabajadorPresencial.java 	 28/02/2024
+__(D) NIVEL_2:
+  (F)  JsonSerializable.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  Trabajador.java 	 28/02/2024
+  (F)  trabajador.json 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  JsonSerializable.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024
+  (F)  Trabajador.java 	 28/02/2024
+  (F)  trabajador.json 	 28/02/2024
+
+*(D)TEMA_8:
+__(D) NIVEL_1:
+__(D)  EJERCICIO_1:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_3:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_4:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_5:
+   (F)   Main.java 	 28/02/2024
+   (F)   PiValue.java 	 28/02/2024
+__(D)  EJERCICIO_6:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_7:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_8:
+   (F)   Main.java 	 28/02/2024
+   (F)   StringReverse.java 	 28/02/2024
+__(D) NIVEL_2:
+__(D)  EJERCICIO_1:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_2:
+   (F)   Main.java 	 28/02/2024
+__(D)  EJERCICIO_3:
+   (F)   Main.java 	 28/02/2024
+   (F)   Operator.java 	 28/02/2024
+__(D)  EJERCICIO_4:
+   (F)   Main.java 	 28/02/2024
+__(D) NIVEL_3:
+  (F)  Alumno.java 	 28/02/2024
+  (F)  Main.java 	 28/02/2024

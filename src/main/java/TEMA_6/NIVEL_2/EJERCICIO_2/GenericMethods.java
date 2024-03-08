@@ -4,12 +4,10 @@ import java.util.List;
 
 public class GenericMethods {
 
+    public static <T> void cantidadVariableArgs(T... t) {
 
-    //Lista de argumentos variables indefinidas
-    public static void listaVariablesIndefinida(List<?> list) {
-        for (Object object : list) {
-            System.out.println(object);
+        for (int i = 0; i < t.length; i++) {
+            System.out.println(t[i]);
         }
-
     }
 }

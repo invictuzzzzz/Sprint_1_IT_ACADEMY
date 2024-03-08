@@ -47,7 +47,7 @@ public class Main {
     
     // Metodo crear restaurante y añadir al hashset restaurantes
 
-    public static void crearRestaurante(String nombre, int puntuacion) {
+    private static void crearRestaurante(String nombre, int puntuacion) {
         Restaurante restaurante = new Restaurante(nombre, puntuacion);
         restaurantes.add(restaurante);
     }

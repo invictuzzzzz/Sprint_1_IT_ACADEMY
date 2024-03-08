@@ -26,8 +26,7 @@ public class MesTest {
     @Test
     public void testListaNoNula() {
         listaMesesTest = MesManager.crearMeses();
-        boolean resultadoEsperado = listaMesesTest != null;
-        assertTrue(resultadoEsperado, "La lista no puede ser nula.");
+        assertEquals(false, listaMesesTest.isEmpty());
     }
 
     @Test

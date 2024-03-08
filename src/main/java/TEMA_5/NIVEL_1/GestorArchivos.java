@@ -1,4 +1,11 @@
+
 package TEMA_5.NIVEL_1;
+
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Date;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -12,50 +19,64 @@ public class GestorArchivos {
         File file = new File(pathFile);
         String mensaje = "";
 
-        if (!(file.exists())) {
+        if (!file.exists()) {
             return "Ruta del directorio no encontrada. ";
         }
 
-        File[] archivos = file.listFiles();
+        File[] archivos = obtenerArchivosOrdenados(file);
+
+        String indexaccion = obtenerIndexaccion(nivel);
+        SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy");
+
+        for (File archivo : archivos) {
+            String tipo = obtenerTipo(archivo);
+            String fechaModificacion = obtenerFechaModificacion(archivo, fecha);
+
+            if (archivo.isDirectory()) {
+                mensaje += obtenerMensajeDirectorio(archivo, nivel, tipo, indexaccion);
+                mensaje += listarAlfabeticamente(archivo.getPath(), nivel + 1);
+            } else {
+                mensaje += obtenerMensajeArchivo(archivo.getName(), tipo, indexaccion, fechaModificacion);
+            }
+        }
+        return mensaje;
+    }
+
+    private static File[] obtenerArchivosOrdenados(File directorio) {
+        File[] archivos = directorio.listFiles();
         Arrays.sort(archivos, new Comparator<File>() {
             @Override
             public int compare(File file1, File file2) {
                 return file1.getName().compareTo(file2.getName());
             }
         });
+        return archivos;
+    }
 
 
-
-        String indexaccion = "";
+    private static String obtenerIndexaccion(int nivel) {
+        StringBuilder indexaccion = new StringBuilder();
         for (int i = 0; i < nivel; i++) {
-            indexaccion += " ";
+            indexaccion.append(" ");
         }
+        return indexaccion.toString();
+    }
 
-        SimpleDateFormat fecha = new SimpleDateFormat("dd/MM/yyyy");
+    private static String obtenerTipo(File archivo) {
+        return archivo.isDirectory() ? "(D)" : "(F)";
+    }
 
-        for (File archivo : archivos) {
-            String tipo = archivo.isDirectory() ? "(D)" : "(F):";
+    private static String obtenerFechaModificacion(File archivo, SimpleDateFormat formatoFecha) {
+        return "Ultima modificación: " + formatoFecha.format(new Date(archivo.lastModified()));
+    }
 
-            String fechaModificacion = "Ultima modificación: "
-                    + fecha.format(new Date(archivo.lastModified()));
+    private static String obtenerMensajeDirectorio(File archivo, int nivel, String tipo, String indexaccion) {
+        return nivel == 0 ? "\n*" + tipo + archivo.getName() + ":\n" :
+                "__" + tipo + indexaccion + archivo.getName() + ":\n";
+    }
 
-            if (archivo.isDirectory()) {
-
-                //cada vez que encuentra un directorio, llama de nuevo a la función
-                //sumando 1 nivel de profundidad y recorre las subcarpetas o archivos.
-                if (nivel == 0) {
-                    mensaje += "\n*" + tipo + archivo.getName() + ":\n";
-                } else {
-                    mensaje += "__"+ tipo + indexaccion + archivo.getName() + ":\n";
-                }
-                mensaje += listarAlfabeticamente(archivo.getPath(), nivel + 1);
-
-            } else {
-                mensaje += indexaccion + tipo + indexaccion + archivo.getName() +
-                        " \t " + fechaModificacion + "\n";
-            }
-        }
-        return mensaje;
+    private static String obtenerMensajeArchivo(String nombreArchivo, String tipo, String indexaccion, String fechaModificacion) {
+        return indexaccion + tipo + indexaccion + nombreArchivo + " \t " + fechaModificacion + "\n";
     }
 }
 

@@ -102,7 +102,7 @@ public class Main {
             contador++;
         }
     }
-    public static void creacionMesesIntroArray(String nombre) {
+    private static void creacionMesesIntroArray(String nombre) {
         Month mes = new Month(nombre);
         meses.add(mes);
     }
