@@ -1,40 +1,45 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# Carpeta de compilación de Java
+bin/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-*.idea
-*.iws
-*.iml
-*.ipr
-*.class
-*.gitignore
-*.pom.xml
-*.iml
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
+# Carpeta de archivos generados por IDEs y editores
+.idea/
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# Archivos de configuración de Eclipse
+.settings/
+
+# Carpetas y archivos específicos de NetBeans
+nbproject/
+nb-configuration.xml
+
+# Archivos de registro
+*.log
+
+# Carpetas y archivos generados por Maven
+target/
+mvnw
+mvnw.cmd
+
+# Carpeta y archivos de dependencias
+lib/
+
+# Carpeta y archivos de registros y respaldo
+log/
+backup/
+
+# Archivos específicos del proyecto
+Constants.java
+
+# Carpeta de distribución de Gradle
+build/
+
+# Archivos de configuración de Gradle
+.gradle/
+
+# Archivos de configuración y scripts de Gradle
+gradle/wrapper/
+gradlew
+gradlew.bat
+
+# Archivos de configuración de Gradle
+settings.gradle.kts
